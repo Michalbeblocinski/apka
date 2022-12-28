@@ -1,0 +1,102 @@
+.card ul{
+    overflow: auto !important;
+}
+.editProfileTitle form .container{
+    margin-top: 2vh;
+    font-family: Montserrat;
+    background: rgba(29, 28, 28, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(124, 82, 143, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(68, 65, 65, 0.144);
+   
+}
+.editProfileTitle .field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editProfileTitle .field input {
+    border-radius: 10px;
+    border: 0px;
+    padding: 1vh 1.5vh;
+    
+}
+.editProfile .edit_first textarea {
+    background-color:  rgba(81, 69, 88, 0.818) !important;
+    color: rgb(226, 49, 217);
+    border-color: black!important ;
+}
+.editProfile .edit_second input {
+    background-color:  rgba(81, 69, 88, 0.818) !important;
+    color: rgb(226, 49, 217);
+    border-color: black!important ;
+}
+.editProfile .edit_second select {
+    background-color:  rgba(81, 69, 88, 0.818)!important;
+    color: rgb(226, 49, 217);
+    border-color: black!important ;
+}
+.editProfile img{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+}
+@media screen and ( max-width: 370px) {
+    .editProfile img{
+        height: auto;
+        width: 90%;
+    }
+}
+.editProfile .row {
+    overflow: hidden;
+}
+
+.editProfileTitle h1 {
+    color: #fff;
+}
+
+.editProfileTitle form h3{
+    padding: 1vh;
+    color: #fff;
+
+}
+.editProfileTitle form li{
+    border-radius: 0rem !important;
+}
+.editProfileTitle label {
+    color: #fff;
+}
+.editProfileTitle p {
+    color: #fff;
+}
+.card {
+    background: transparent !important;
+    text-align: center;
+}
+.card h2 {
+    color : white;
+}
+.card .card-body {
+    
+    width: 100%;
+}
+.card .card-body ul {
+    display: flex;
+    justify-content: center;
+}
+.card .card-body li {
+    
+    font-size: 12px;
+    background-color:  rgba(81, 69, 88, 0.818)!important;
+    border-color: black!important ;
+}
+.editProfile .form-control-file {
+    margin: 1vw;
+    color: #fff !important;
+}
+.card p {
+    color: rgb(226, 49, 217) !important;
+}

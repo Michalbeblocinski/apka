@@ -1,0 +1,102 @@
+
+.bodyHiddenX{
+    overflow-x:hidden ;
+    
+}
+.simplecard{
+    color:aliceblue;
+    padding: 5px;
+    margin: 4%;
+    background: rgba(29, 28, 28, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(124, 82, 143, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(68, 65, 65, 0.144);
+    width: 80%;}
+    
+.simpleInformation{
+    background-color: white;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 8px;
+    margin:5px;
+    min-height: 42px;
+    
+}
+.half{
+    margin-left: 5 !important;
+    margin-right: 5 !important;
+}
+.img1{
+    height: auto;
+    
+    width: 100%;
+    max-width: 15vw;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 767px) {
+    .img1{
+        height: auto;
+        
+        width: 100%;
+        max-width: 40vw;
+        margin-bottom: 5px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+  }
+  .showme{
+    display: auto!important;
+  }
+  .noshowme{
+    display: none!important;
+  }
+  .cards .simpleInformation, .cards input,.cards select,.cards li,.cards button{
+    border-bottom-color: #0400eb9f!important;
+    background-color:  rgba(81, 69, 88, 0.818)!important;
+    color: azure!important;
+    margin-top: 8px;
+    border-color: rgba(124, 82, 143, 0.4)!important;
+    
+  }
+ .bodyHiddenX form ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .bodyHiddenX form h2 {
+  margin-top: 1rem;
+ }
+ .bodyHiddenX form p {
+  color: rgb(226, 49, 217) !important;
+  margin-top: 1rem !important;
+  font-size: 16px;
+ }
+ .bodyHiddenX p {
+  margin-top: 1rem !important;
+  font-size: 16px;
+ }
+ .bodyHiddenX {
+  font-family: Montserrat;
+ }
+ 
+ .bodyHiddenX form ul li {
+   border-radius: 0rem !important;
+ }
+ .simpleInformation {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ @media only screen and (max-width: 400px) {
+  .bodyHiddenX p {
+      font-size: 12px;
+   }
+   .bodyHiddenX .row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+   }
+ }
